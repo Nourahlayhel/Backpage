@@ -1,0 +1,24 @@
+#button {
+width:100px;
+background-color: antiquewhite;
+color:black;
+padding:10px;
+margin-left: 100px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:url("https://dreamz.ie/wp-content/uploads/2020/05/7381.jpg");
+    font-size:160%;
+}
+#newitems{
+    display: none;
+}
+#pp{
+    display:none;
+}
+input{
+   background-color:  hsl(0, 0%, 90%);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   height:50px;
+   font-size:140%;
+}
