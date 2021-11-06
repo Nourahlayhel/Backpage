@@ -46,7 +46,6 @@
   
    <div id="newitems">
 
-    <p>how many types</p> <input id="nbofitems" type="number">
     <p>what kind</p>
     <select id="kinds">
       <option value="soup">soup</option>
@@ -57,9 +56,11 @@
       <option value="Biryani">Biryani</option>
       <option value="Curries">Curries</option>
     </select>
-
+    
+    <p>how many types</p> <input id="nbofitems" type="number" min="0">
+<br><br>
 <button id="item">ADD </button></div>
-<button id="remove">remove</button>
+<button id="remove">remove</button><br>
 <button id="button">submit</button>
   <script> 
 
@@ -177,7 +178,11 @@ var requestOptions = {
 
 fetch("https://morning-savannah-06814.herokuapp.com/modifyitems", requestOptions)
   .then(response => response.text())
-  .then(result => console.log(result))
+  .then(result =>
+  {
+    if(result=="done") alert("done");
+  }
+  )
   .catch(error => console.log('error', error));
     }
 

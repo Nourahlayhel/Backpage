@@ -3,7 +3,8 @@ width:100px;
 background-color: antiquewhite;
 color:black;
 padding:10px;
-margin-left: 100px;
+margin-left: 50%;
+margin-top:20px;
 }
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -21,4 +22,13 @@ input{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    height:50px;
    font-size:140%;
+}
+#kinds{
+    width:120px;
+    height:40px;
+    font-size:110%;
+}
+#item,#additems,#remove{
+    width:140px;
+    font-size:90%;
 }
